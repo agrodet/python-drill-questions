@@ -1,0 +1,19 @@
+ライセンス
+
+Copyright (c) 2020 Grodet Aymeric, Shota Matsumoto, Masayuki Nii
+
+レポジトリ内のファイルは、「Python基礎ドリル」の読者向けに配布されるもので
+あり、そうではない利用者に対するサポートや情報提供は原則として行われない。
+入手したファイルの内容は、読者あるいは読者に限らず、個人的な利用のみを無償
+で認める。入手したファイルの再公開、修正結果の公開、あるいは解釈等の公開を
+しないことを前提に、本レポジトリのファイルの利用を認める。また、本ファイル
+あるいはその修正結果を出版等著作物に利用する場合には、出版社への照会を必要
+とする。
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. (A part of MIT License)
