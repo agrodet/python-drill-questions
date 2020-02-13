@@ -8,4 +8,4 @@ def find_person(people, target):
 
 
 find_person(['Wilma', 'Woof', 'Wally'], 'Wally')
-find_person(['Wenda', 'Odlaw', 'WatcherA', 'WatcherB'], 'Wally')
+find_person(['Wenda', 'Odlaw', 'WatcherA', 'WatcherB'], 'Whitebeard')
