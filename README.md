@@ -2,7 +2,7 @@
 
 2020-02-20
 
-Grodet Aymeric、松本　翔太、新居　雅行 [ライフマティックス株式会社](/https://lifematics.co.jp "ライフマティックス株式会社")
+Grodet Aymeric、松本　翔太、新居　雅行 [ライフマティックス株式会社](https://lifematics.co.jp "ライフマティックス株式会社")
 
 ---
 
