@@ -2,9 +2,9 @@
 
 2020-02-20
 
-Grodet Aymeric
-松本　翔太
-新居　雅行
+Grodet Aymeric、松本　翔太、新居　雅行 [link](/https://lifematics.co.jp "ライフマティックス株式会社")
+
+---
 
 - オーム社より2020年に発売された『Python基礎ドリル』の問題プログラムのファイルを公開します。
 - ここでは問題となる完成されていないコードのみのを公開します。問題を公開してはいません。
@@ -17,7 +17,11 @@ Grodet Aymeric
 
 ### repl.itで利用される場合
 
-repl.itの「import repo」ボタンをクリックし、「Import From GitHub」を選択して、レポジトリのURLとして「https://github.com/agrodet/python-drill-questions」を入力してください。すると、1つのReplが新たに作られて、そこにこのレポジトリのファイルが全部展開されています。
+repl.itの「import repo」ボタンをクリックし、「Import From GitHub」を選択して、レポジトリのURLとして、ここのURL、つまり
+
+https://github.com/agrodet/python-drill-questions
+
+を入力してください。すると、1つのReplが新たに作られて、そこにこのレポジトリのファイルが全部展開されています。
 
 このレポジトリのルートにある.replitファイルを利用して、読み込まれたReplでは常に、ルートにあるall_start_replit.pyが実行されるようになっています。このファイルは初期状態では、Chapter_1フォルダのall_questions.pyファイルをインポートしています。all_questions.pyファイルを参照すると、Q1_01.pyファイルをインポートする部分があり、基本的にコードがある問題のファイルが全てインポートされています。しかしながら、多くはコメントになっています。初期状態では、単にQ1_01.pyファイルのプログラムが動くだけになります。最初の問題からかかる方は、そのままQ1_01.pyを修正して、望む動作になるように変更しましょう。
 
