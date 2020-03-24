@@ -3,5 +3,7 @@ def copy(src, dst, recursive=False):
 
 
 copy('A', 'B', True)
-copy("""①"""=True, """②"""='B', """③"""='A')
-copy('A', """④"""='B')
+copy("""①"""=True,
+     """②"""='B',
+     """③"""='A')
+copy('A', dst='B')

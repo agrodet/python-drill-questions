@@ -13,7 +13,8 @@ class Greetings:
 
                 print(f'{greeting.capitalize()}, {name}.')
             else:
-                raise ValueError(f'Invalid name or greeting. name: {name}, greeting: {attr}')
+                msg = f'name: {name}, greeting: {attr}'
+                raise ValueError(f'Invalid name or greeting. {msg}')
 
         return call
 
