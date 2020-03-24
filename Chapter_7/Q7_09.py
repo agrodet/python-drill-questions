@@ -11,7 +11,7 @@ def add_all(fr, to, index, queue):
 
 worker = [None] * 10
 result = [0] * 10
-q = """②""" # キューを用意する
+q = """②"""  # キューを用意する
 if __name__ == '__main__':
     for i in range(10):
         start = i * 10_000

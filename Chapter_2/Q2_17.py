@@ -8,9 +8,8 @@ def search_path_rec(map_array, visited, gx, gy, cx, cy):
     """②"""[cy][cx] = True
     if cx == """③""" and cy == """④""":
         return [(cx, cy)]
-    path = None
     for direction in directions:
-        path = search_path_rec(map_array, visited, gy, gx, """⑤""", """⑥""")
+        path = search_path_rec(map_array, visited, gx, gy, """⑤""", """⑥""")
         if path is not None:
             path = [(cx, cy)] + """⑦"""
             break

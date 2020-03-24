@@ -11,13 +11,13 @@ parser.add_argument(""""⑥"""", """"⑦"""", type=float, default=0.001, help="t
 args = parser.parse_args()
 
 if args.verbose:
-    print("Computing disk triangulation ({} points)...".format(args.points))
-disk_trig = minsurf.diskTriangulation(args.points)
+    print("Disk triangulation ({} points)...".format(args.points))
+disk_trig = minsurf.disk_triangulation(args.points)
 if args.verbose:
     print("Running Gauss-Seidel procedure...")
     print("Using " + args.boundary.name + " for the boundary.")
-global_matrix = minsurf.global_matrix()
-func_params = minsurf.boundary_prep(args.boundary)
-gs_results, error = minsurf.gauss_seidel(global_matrix, disk_trig)
+global_mat = minsurf.global_matrix()
+f_params = minsurf.boundary_prep(args.boundary)
+gs_results, error = minsurf.gauss_seidel(global_mat, disk_trig, f_params)
 
 print("Approximation computed! Error = " + error)

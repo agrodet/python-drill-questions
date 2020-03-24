@@ -16,5 +16,5 @@
 
 print_hello()
 print_slogan("ambitious")
-do_nothing("no result")
+do_nothing("no result")  # 何もしない
 print(concat("a", "b", "c"))

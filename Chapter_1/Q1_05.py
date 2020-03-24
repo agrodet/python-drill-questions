@@ -4,4 +4,4 @@ kind = 501
 n = 8
 kana_char = kanas["""①"""]
 num = 4562
-print(f""""②"""{kind} {kana_char} {num}")
+print(f""""②""" {kind} {kana_char} {num}")

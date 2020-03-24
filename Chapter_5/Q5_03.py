@@ -2,7 +2,7 @@ import re
 
 kit_pattern = "kit*"
 
-input_strings = ["kit", "kat", "kitty", "katty", "kittkatt", "toolkit", "kiwi", ""]
+input_strings = ["kit", "kat", "kitty", "katty", "kittkatty", "toolkit", "kiwi", ""]
 
 match = []
 for m in map(lambda s: re.search(kit_pattern, s), input_strings):

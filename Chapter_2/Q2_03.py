@@ -1,7 +1,7 @@
-def arbitrary(*args, **kwargs):
-    print(f'args: {args}')
-    print(f'kwargs: {kwargs}')
+def copy(src, dst, recursive=False):
+    print(f"copy {src} from {dst} (recursive: {recursive})")
 
 
-arbitrary(1, 2, 3, 4)
-arbitrary(1, 2, a=3, b=4)
+copy('A', 'B', True)
+copy("""①"""=True, """②"""='B', """③"""='A')
+copy('A', """④"""='B')

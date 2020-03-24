@@ -12,7 +12,7 @@ class Attacker(Character):
         Character.__init__(self, name, hp, mp)
         self.strength = strength
 
-    def attack(self, target):
+    def attack(self, target):  # 通常の攻撃
         target.hp -= self.strength
 
 
@@ -21,7 +21,7 @@ class Healer(Character):
         Character.__init__(self, name, hp, mp)
         self.power = power
 
-    def heal(self, target):
+    def heal(self, target):  # 回復の呪文
         if self.mp > 2:
             target.hp += self.power
             self.mp -= 2

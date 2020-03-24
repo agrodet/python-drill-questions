@@ -21,4 +21,4 @@ for i in range(10):
     th[i].start()
 for i in range(10):
     th[i].join()
-print("{:,}".format(cumulative))  # 修正前の出力例 18,729,807,728,754
+print("{:,}".format(cumulative))  # 修正前の出力 18,729,807,728,754

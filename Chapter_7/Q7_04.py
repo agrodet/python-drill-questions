@@ -20,7 +20,7 @@ th = [None] * 10
 for i in range(10):
     start = i * 1000000
     end = (i + 1) * 1000000 - 1
-    th[i] = Thread(target=add_all, args=(start, end), name=f"th{i}")
+    th[i] = Thread(target=add_all, args=(start, end))
     th[i].start()
 for i in range(10):
     th[i].join()
