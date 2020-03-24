@@ -15,5 +15,6 @@ feature_df = feature_df.dropna(axis="""②""", thresh="""③""")
 print(f"shape after column removal: {feature_df.shape}")
 # 欠損値を列ごとの平均値で置換
 feature_df = feature_df.fillna("""④""")
+# StandardScalerでスケーリング
 feature_df = StandardScaler()."""⑤"""(feature_df)
 print(f"final df: {feature_df}")

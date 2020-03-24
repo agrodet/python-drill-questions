@@ -2,7 +2,7 @@ def parse_rec(text, current_depth):
     index = 0
     result_texts = []
     current_text = ""
-    while (index < len(text)):
+    while index < len(text):
         if text[index] == "(":
             each_index, each_result = parse_rec(text"""①""", """②""")
             if each_index is """③""":
@@ -27,7 +27,7 @@ def parse_rec(text, current_depth):
 
 def parse(text):
     (read_pos, results) = parse_rec(text, 0)
-    if (read_pos is None):
+    if read_pos is None:
         print("unbalanced")
     else:
         print(', '.join(results))

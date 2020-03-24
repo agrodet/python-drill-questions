@@ -1,18 +1,18 @@
-# このコードは、"""①"""のエラーが検出され
+# このコードは、"""①"""のエラーが検出された
 a = {"shirt": 7, "pants": 2, "socks": 8}
 print(sum(a))
 
-# このコードは、"""②"""のエラーが検出され
+# このコードは、"""②"""のエラーが検出された
 a = set([x * x for x in range(0, 5)])
 a.remove(7)
 
-# このコードは、"""③"""のエラーが検出され
+# このコードは、"""③"""のエラーが検出された
 example = [x for x in range(0, 10)]
 for i in range(0, len(example)):
     if example[i] % 2 == 0:
         example.remove(example[i])
 
-# このコードは、"""④"""のエラーが検出され
+# このコードは、"""④"""のエラーが検出された
 a = (1, 2, 3)
 b = (0, 2, 5)
 for i in range(0, len(a)):

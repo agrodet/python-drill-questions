@@ -2,7 +2,7 @@ import re
 
 
 def print_doubled_words(file_content):
-    doubled = re.compile(r"\b"""①"""[ ("""②"""\b)+", re."""③""")
+    doubled = re.compile(r"\b"""①""" ("""②"""\b)+", re."""③""")
 
     for result in doubled.findall(file_content[0]):
         print(f"{result} on line {1}")

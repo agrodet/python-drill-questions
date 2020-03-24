@@ -23,7 +23,7 @@ dataset = load_iris()
 # デフォルトのランダムフォレスト
 rf = RandomForestClassifier(random_state=0)
 # ハイパーパラメータを設定したランダムフォレスト
-rf_par = RandomForestClassifier(n_estimators=200, max_depth=100, random_state=0)
+rf_par = RandomForestClassifier(n_estimators=500, max_depth=100, random_state=0)
 # K近傍法による分類器
 knn_par = KNeighborsClassifier(n_neighbors=7, p=3)
 

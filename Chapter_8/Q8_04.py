@@ -12,9 +12,9 @@ def my_cross_val_score(model, X, y, kfold):
 
 dataset = load_breast_cancer()
 model = RandomForestClassifier(random_state=0)
-kfold = KFold(n_splits=5, shuffle=True, random_state=0)
+kfold = KFold(n_splits=3, shuffle=True, random_state=0)
 
 cv_accuracy = cross_val_score(model, dataset.data, dataset.target, cv="""④""", scoring="accuracy")
 print(f"CV accuracy:\n{cv_accuracy}")
-my_cv_acc = my_cross_val_score(model, dataset.data, dataset.target, kfold)
+my_cv_acc = my_cross_val_score(model, dataset.data, dataset.target, """④""")
 print(f"My CV accuracy: \n{my_cv_acc}")

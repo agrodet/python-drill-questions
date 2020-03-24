@@ -12,10 +12,12 @@ dataset = load_breast_cancer()
 model = RandomForestClassifier(random_state=0)
 
 
+# Accuracy の定義は(TP + TN) / (TP + FP + FN + TN)
 def my_accuracy(y_true, y_pred):
     return ("""②""").sum() / y_true.shape["""③"""]
 
 
+# Recall の定義はTP / (TP + FN)
 def my_recall(y_true, y_pred):
     t = y_true == y_pred
     tp = (t & """④""").sum()

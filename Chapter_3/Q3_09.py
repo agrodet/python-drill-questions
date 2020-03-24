@@ -14,8 +14,8 @@ class Time:
         new_time.secs += to_add
 
         if new_time.secs """④""" 60:
-          new_time.mins += new_time.secs """⑤""" 60
-          new_time.secs = new_time.secs """⑥""" 60
+            new_time.mins += new_time.secs """⑤""" 60
+            new_time.secs = new_time.secs """⑥""" 60
 
         return new_time
 
