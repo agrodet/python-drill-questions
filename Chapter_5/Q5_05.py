@@ -6,7 +6,8 @@ class PhoneReformatError(Exception):
 
 
 def validate_phone_number(phone_number):
-    pattern = "^"""①"""["""②"""](["""③"""]?[0-9]{"""④"""}){"""⑤"""}"
+    pattern = "^"""①"""["""②"""]" \
+              "(["""③"""]?[0-9]{"""④"""}){"""⑤"""}"
     if re.match(pattern, phone_number):
         return re."""⑥"""('"""③"""', '', phone_number)
     else:
