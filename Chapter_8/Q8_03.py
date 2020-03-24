@@ -2,7 +2,8 @@ from importer import *
 
 
 def eval_model(model, X, y, eval_func):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=0)
+    X_train, X_test, y_train, y_test = \
+        train_test_split(X, y, test_size=0.33, random_state=0)
     model.fit(X_train, y_train)
     predicted = model.predict(X_test)
     return """①"""(y_test, predicted)
@@ -28,4 +29,5 @@ for name, eval_func in [('Accuracy', accuracy_score),
                         ('My accuracy', my_accuracy),
                         ('recall', recall_score),
                         ('My recall', my_recall)]:
-    print(f"{name} score of rf: {eval_model(model, dataset.data, dataset.target, eval_func)}")
+    print(f"{name} score of rf:"
+          f"{eval_model(model, dataset.data, dataset.target, eval_func)}")
