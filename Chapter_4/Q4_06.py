@@ -6,3 +6,6 @@ try:
 except Exception as ex:
     print(ex)
 print(f"ix={ix}, s={s}")
+# 出力結果
+# """①"""
+# ix="""②""", s="""③"""

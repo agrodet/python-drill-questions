@@ -3,7 +3,8 @@ class Greetings:
         self.name = name
 
     def __getattr__(self, attr):
-        allowed = ['hello', 'good_morning', 'good_afternoon', 'good_evening', 'nice_to_meet_you', 'wake_up', 'good_night']
+        allowed = ['hello', 'wake_up', 'good_morning', 'good_afternoon',
+                   'good_evening', 'nice_to_meet_you', 'good_night']
 
         def call(name=None):
             if attr in allowed:
@@ -12,7 +13,8 @@ class Greetings:
 
                 print(f'{greeting.capitalize()}, {name}.')
             else:
-                raise ValueError(f'Invalid name or greeting. name: {name}, greeting: {attr}')
+                msg = f'name: {name}, greeting: {attr}'
+                raise ValueError(f'Invalid name or greeting. {msg}')
 
         return call
 
