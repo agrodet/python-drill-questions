@@ -1,4 +1,4 @@
-people = [["Alice", 16], ["Bob", 19], ["Carol", 18], ['Dan', 17], ['Erin', 20]]
+people = [("Alice", 16), ("Bob", 19), ("Carol", 18), ('Dan', 17), ('Erin', 20)]
 
 name_list = list(map(lambda p: """①""", people))
 print(name_list)

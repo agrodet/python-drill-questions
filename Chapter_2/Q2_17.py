@@ -1,16 +1,16 @@
-directions = [(1, 1), (1, 0), (1, -1), (0, 1), (0, -1), (-1, 1), (-1, 0), (-1, -1)]
+directions = [[1, 1], [1, 0], [1, -1], [0, 1], [0, -1], [-1, 1], [-1, 0], [-1, -1]]
 
 
 def search_path_rec(map_array, visited, gx, gy, cx, cy):
-    if (not 0 <= cy < len(map_array) or not 0 <= cx < len(map_array[cy])
-            or visited[cy][cx] or """①""" == 0):
+    if (not 0 <= cy < len(map_array) or \
+        not 0 <= cx < len(map_array[cy]) \
+        or visited[cy][cx] or """①""" == 0):
         return None
     """②"""[cy][cx] = True
     if cx == """③""" and cy == """④""":
         return [(cx, cy)]
-    path = None
     for direction in directions:
-        path = search_path_rec(map_array, visited, gy, gx, """⑤""", """⑥""")
+        path = search_path_rec(map_array, visited, gx, gy, """⑤""", """⑥""")
         if path is not None:
             path = [(cx, cy)] + """⑦"""
             break
