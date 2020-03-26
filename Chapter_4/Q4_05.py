@@ -6,3 +6,6 @@ try:
 except """1""" as ex:
     print(ex)
 print(f"ix={ix}, s={s}")
+# 出力結果
+# list index out of range
+# ix="""②""", s="""③"""

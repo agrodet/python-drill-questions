@@ -20,4 +20,5 @@ if __name__ == '__main__':
     for i in range(10):
         worker[i].join()
         s += """④"""
-    print("{:,}".format(s))  # 4,999,950,000
+    print("{:,}".format(s))
+    #　出力結果 ＞＞＞ 4,999,950,000

@@ -2,9 +2,9 @@ directions = [[1, 1], [1, 0], [1, -1], [0, 1], [0, -1], [-1, 1], [-1, 0], [-1, -
 
 
 def search_path_rec(map_array, visited, gx, gy, cx, cy):
-    if (not 0 <= cy < len(map_array) or \
-        not 0 <= cx < len(map_array[cy]) \
-        or visited[cy][cx] or """①""" == 0):
+    if not 0 <= cy < len(map_array) or \
+        not 0 <= cx < len(map_array[cy]) or \
+        visited[cy][cx] or """①""" == 0:
         return None
     """②"""[cy][cx] = True
     if cx == """③""" and cy == """④""":

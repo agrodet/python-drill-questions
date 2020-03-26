@@ -10,3 +10,7 @@ numbers = """①"""(numbers)
 
 # 平方数を見つける
 squares = [n for n in numbers if math.sqrt(n).is_"""②"""()]
+
+# リストの要素を確認するコード
+print(numbers)
+print(squares)

@@ -14,4 +14,4 @@ b = Counter()
 del a
 c = Counter()
 del b
-print(Counter.how_many())  # ここで、"""①"""と出力される
+print(Counter.how_many())  # 出力結果 ＞＞＞ """①"""

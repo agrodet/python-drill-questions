@@ -20,4 +20,5 @@ for i in range(num):
     th[i] = Thread(target=add_all, args="""③""")
     th[i].start()
 """④"""
-print("{:,}".format(reduce(lambda x, y: x + y, result)))  # 4,999,950,000
+print("{:,}".format(reduce(lambda x, y: x + y, result)))
+# 出力結果 ＞＞＞ 4,999,950,000

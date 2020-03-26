@@ -18,7 +18,7 @@ df["sepal sum"] = """③"""
 
 # sepalが5cm以上かつpetal（花弁）が4cm以下である行のみを取得する
 long_sepal_and_short_petal = df["""④"""]
-print(f"long_sepal_and_short_petal shape: "
+print("long_sepal_and_short_petal shape: "
       f"{long_sepal_and_short_petal.shape}")
 
 # 「petal」で始まる列を削除する
