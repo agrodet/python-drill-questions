@@ -6,4 +6,4 @@ copy('A', 'B', True)
 copy("""①"""=True,
      """②"""='B',
      """③"""='A')
-copy('A', dst='B')
+copy('A', """④"""='B')
