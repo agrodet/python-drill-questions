@@ -12,7 +12,7 @@ def print_doubled_words(file_content):
             print(f"{result} on line {i + 1}")
         last_word = file_content[i - 1].split(' ')[-1]
         if last_word == file_content[i].split(' ')[0]:
-            print(f"{last_word} repeated on lines {i} and {i + 1}"
+            print(f"{last_word} repeated on lines {i} and {i + 1}")
 
 
 #　関数のテスト
