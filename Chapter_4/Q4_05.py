@@ -3,7 +3,7 @@ try:
     s = 0
     for ix in range(10):
         s += a[ix]
-except """1""" as ex:
+except """①""" as ex:
     print(ex)
 print(f"ix={ix}, s={s}")
 # 出力結果

@@ -4,8 +4,8 @@ for ix in range(10):
     if b != ix:
         print(a / (b - ix))
 
-"""1"""
-"""2"""
+"""①"""
+"""②"""
 print(a / (b - ix))
-except """3""":
-"""4"""
+except """③""":
+"""④"""
