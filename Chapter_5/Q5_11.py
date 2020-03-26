@@ -11,5 +11,6 @@ year_pattern = r"("""①""""""②""")"""③"""{"""④"""}年"
 matches = re.findall(year_pattern, html)
 
 year_counts = dict((year, matches."""⑤"""(year)) for year in """⑥"""(matches))
+
 for year in sorted("""⑦""", key="""⑦""".get, reverse=True):
     print(year, year_counts[year])

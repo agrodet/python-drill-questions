@@ -15,6 +15,5 @@ model = RandomForestClassifier(random_state=0)
 kfold = KFold(n_splits=3, shuffle=True, random_state=0)
 
 cv_accuracy = cross_val_score(model, dataset.data, dataset.target, cv="""④""", scoring="accuracy")
-print(f"CV accuracy:\n{cv_accuracy}")
 my_cv_acc = my_cross_val_score(model, dataset.data, dataset.target, """④""")
-print(f"My CV accuracy: \n{my_cv_acc}")
+print(f"CV accuracy: {cv_accuracy}\nMy CV accuracy: {my_cv_acc}")

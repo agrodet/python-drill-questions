@@ -14,10 +14,9 @@ fruits_sorted = """①"""(fruits_quantity."""②""",
                          reverse="""④""")
 for fruit, quantity in fruits_sorted:
     print(fruit + " → " + str(quantity))
-    # 出力例：ナシ → 78
-    #        ウメ → 51
-    #        イチゴ → 21
-    #        スイカ → 21
-    #        リンゴ → 14
-    #        バナナ → 2
-    #        ウメ → 51
+    # 出力結果  ナシ → 78
+    #          ウメ → 51
+    #          イチゴ → 21
+    #          スイカ → 21
+    #          リンゴ → 14
+    #          バナナ → 2

@@ -27,7 +27,7 @@ def my_recall(y_true, y_pred):
 
 for name, eval_func in [('Accuracy', accuracy_score),
                         ('My accuracy', my_accuracy),
-                        ('recall', recall_score),
+                        ('Recall', recall_score),
                         ('My recall', my_recall)]:
     print(f"{name} score of rf:"
           f"{eval_model(model, dataset.data, dataset.target, eval_func)}")

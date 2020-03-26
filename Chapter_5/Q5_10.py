@@ -16,5 +16,6 @@ def parse_markdown_link(link):
         raise MarkdownParseError("Invalid markdown link.")
 
 
+# 関数のテスト
 markdown_link = '[表示されるテキスト。[リンク]の情報](http://www.myurl.com "私の"任意"タイトル")'
 print(parse_markdown_link(markdown_link))

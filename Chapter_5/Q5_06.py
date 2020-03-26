@@ -15,6 +15,7 @@ def print_doubled_words(file_content):
             print(f"{last_word} repeated on lines {i} and {i + 1}"
 
 
+#　関数のテスト
 test_string = ["The the story was not an happy one one.",
                "It started on a cold evening of winter in",
                "in a small town named Kongrad."]

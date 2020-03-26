@@ -14,6 +14,7 @@ def validate_phone_number(phone_number):
         raise PhoneReformatError("Invalid phone number.")
 
 
+# 関数のテスト
 print(validate_phone_number("0836656565"))
 print(validate_phone_number("08 36 65 65 65"))
 print(validate_phone_number("08.36.65.65.65"))

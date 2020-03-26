@@ -21,4 +21,4 @@ if """①""":
         worker[i].join()
         print(result)
         s += result[i]
-    print("{:,}".format(s))  # ここで出力される結果は """③"""
+    print("{:,}".format(s))  # 出力結果 """③"""

@@ -17,4 +17,4 @@ class SpecialAgent(Person):
 
 
 agent = SpecialAgent("Bond", "James", "007")
-print(agent)  # 出力は　"""①"""
+print(agent)  # 出力結果 ＞＞＞　"""①"""

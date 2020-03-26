@@ -23,3 +23,10 @@ generated_func_lambda = generator_lambda(func)
 print(func(2, 3))
 print(generated_func(4, 5))
 print(generated_func_lambda(6, 7))
+# 出力結果
+# """②"""
+# """③"""
+# 6
+# """④"""
+# 20
+# 42

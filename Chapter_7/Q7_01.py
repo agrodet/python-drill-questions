@@ -18,4 +18,5 @@ for i in range(10):
     th[i].start()
 for i in range(10):
     th[i]."""⑤"""
-print("{:,}".format(reduce(lambda x, y: x + y, result)))  # 出力 ＞＞＞ 4,999,950,000
+print("{:,}".format(reduce(lambda x, y: x + y, result)))
+# 出力結果 ＞＞＞ 4,999,950,000

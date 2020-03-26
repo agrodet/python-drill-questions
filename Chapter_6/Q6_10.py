@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 if args.verbose:
     print("Disk triangulation ({} points)...".format(args.points))
-disk_trig = minsurf.diskTriangulation(args.points)
+disk_trig = minsurf.disk_triangulation(args.points)
 if args.verbose:
     print("Running Gauss-Seidel procedure...")
     print("Using " + args.boundary.name + " for the boundary.")
